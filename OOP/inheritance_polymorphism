@@ -1,0 +1,20 @@
+# INHERITANCE: is when a newly created class inherits 
+                # another existing class objects and methods
+    
+# POLYMORPHISM: is when different classes share 
+                # the same mothods
+
+class Animal():
+    def __init__(self):
+        print("ANIMAL CREATED FROM CLASS OBJECT")
+
+    def who_am_i(self):
+        print("I am a human")
+
+    def eat(self):
+        print("I am eating")
+
+class Dog(Animal):
+    # this is where my_animal class
+    # INHERITS the original Animal objects and methods
+    my_animal = Animal() 
