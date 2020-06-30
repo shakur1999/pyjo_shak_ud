@@ -1,7 +1,7 @@
 # INHERITANCE: is when a newly created class inherits 
                 # another existing class objects and methods
     
-# POLYMORPHISM: is when different classes share 
+# POLYMORPHISM: is when different object classes share 
                 # the same mothods
 
 class Animal():
@@ -18,3 +18,34 @@ class Dog(Animal):
     # this is where my_animal class
     # INHERITS the original Animal objects and methods
     my_animal = Animal() 
+
+# =====================================================
+
+# POLYMORPHISM: is when different object classes share 
+                # the same mothods
+
+class Dog():
+
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        return self.name + " says WOOF with it"
+
+class Cat():
+
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        return self.name + " Says MEOW with it"
+
+
+niko = Dog("Hello, my name is Niko)
+filx = Cat("Hellow, my name is filx")
+
+print(niko.speak())
+print(filx.speak())
+
+# Point being, the function `speak` is IN two differe
+# classes methods that can be used accordingly
