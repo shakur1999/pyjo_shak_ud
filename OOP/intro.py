@@ -34,4 +34,7 @@ class Circle():
     # class methods
     def get_circumference(self):
         return self.raduis * Circle.pi * 2
-        
+
+    my_circle = Circle() #deligate Circle attr to my_circle
+    my_circle.raduis
+    my_circle.get_circumference()
