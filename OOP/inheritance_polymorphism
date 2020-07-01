@@ -49,3 +49,8 @@ print(filx.speak())
 
 # Point being, the function `speak` is IN two differe
 # classes methods that can be used accordingly
+
+# abstract funtion is a defined function to
+# raise it or tell it to do NOTHING or OVERWRITE 
+# later in the code
+# instanciation 
