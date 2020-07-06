@@ -1,4 +1,4 @@
-from PIL import Image
+# from PIL import Image to import images
 mac = Image.open("exmple.jpg")
 
 PI.JpegImagePlugin.JpegImageFile
