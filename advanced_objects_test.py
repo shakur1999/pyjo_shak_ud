@@ -21,15 +21,15 @@ s.count("w")
 
 set1 = {2,3,1,5,6,8}
 set2 = {3,1,7,5,6,8}
-set1.intersection(set2)
+set1.difference(set2)
 
 # Problem 6: Find all elements that are in either set:
-set.symmetric_difference(set2)
+set.union(set2)
 
 
 # Advanced Dictionaries
 # Problem 7: Create this dictionary: {0: 0, 1: 1, 2: 8, 3: 27, 4: 64} using a dictionary comprehension.
-
+{x:x**3 for x in range(5)}
 
 # Advanced Lists
 # Problem 8: Reverse the list below:
