@@ -1,4 +1,3 @@
-
 # Advanced Python Objects Tes Advanced Numbers
 
 #Problem 1: Convert 1024 to binary and hexadecimal representation
